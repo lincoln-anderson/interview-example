@@ -31,8 +31,8 @@
 }
 
 .groceryitemCard {
-  border: rgb(127, 255, 122);
+  border: gray;
   border-style: solid;
-  background-color: rgb(255, 0, 0);
+  background-color: black;
   color: white;
 }
