@@ -11,7 +11,7 @@ function App() {
         </div>
         <div className="groceryitemCard">
           <GroceryItemCard name="Chicken Breasts"  
-          dateExpiring="June 3rd, 2022"></GroceryItemCard>
+          dateExpiring="June 6th, 2022"></GroceryItemCard>
         </div>
     </div>
   );
