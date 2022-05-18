@@ -1,8 +1,8 @@
 export default function GroceryItemCard(props) {
 	return (
 		<div className = "groceryItemCard-li">
-			<h3>{props.name}</h3>
-			<h2>{props.dateExpiring}</h2>
+			<h1>{props.name}</h1>
+			<h3>Expires: {props.dateExpiring}</h3>
 		</div>
 	)
 }

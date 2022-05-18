@@ -1,0 +1,14 @@
+{
+  "GroceryItems": [
+    {
+      "id": 1,
+      "name": "chicken breasts",
+      "dateExpiring": "2022-05-25"
+    },
+    {
+      "id": 2,
+      "name": "chicken thighs",
+      "dateExpiring": "2022-05-23"
+    }
+  ]
+}
