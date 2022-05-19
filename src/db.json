@@ -3,25 +3,25 @@
 		"id": 1,
 		"name": "chicken breasts",
 		"dateExpiring": "2022-05-25",
-		"expired": "false"
+		"expired": false
 	},
 	{
 		"id": 2,
 		"name": "chicken thighs",
 		"dateExpiring": "2022-05-23",
-		"expired": "true"
+		"expired": true
 	},
 	{
 		"id": 3,
 		"name": "steak",
 		"dateExpiring": "2022-05-25",
-		"expired": "false"
+		"expired": false
 	},
 	{
 		"id": 4,
 		"name": "cheese",
 		"dateExpiring": "2022-05-23",
-		"expired": "false"
+		"expired": false
 	}
 
 ]
