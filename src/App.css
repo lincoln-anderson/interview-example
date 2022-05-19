@@ -14,9 +14,6 @@
   }
 }
 
-.groceryitemCard-list {
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -29,33 +26,6 @@
     transform: rotate(360deg);
   }
 }
-
-.groceryitemCard {
-  background-color: black;
-  color: white;
-}
-
-.linegroceryitemCard {
-    list-style: none;
-    font-size: 0;
-    height: 22px;
-    margin-top: 2px;
-}
-
-.groceryitemCard li {
-    display: inline-block;
-    border-radius: 0%;
-    width: 35px;
-    height: 20px;
-    margin-top: 4px;
-    background: #737373;
-    outline: 1px solid #000;
-}
-
-ul li.success {
-    background: #00ff00;
-}
-
-ul li.delayed {
-    background: #ff0000;
+.strike {
+   text-decoration: line-through;
 }

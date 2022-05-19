@@ -1,10 +1,11 @@
-import { v4 as uuidv4 } from 'uuid';
+import React from 'react';
 
-class GroceryItem {
-	constructor(id, name, datePurchased, dateExpiring) {
-		this.id = id
-		this.name = name
-		this.datePurchased = datePurchased
-		this.dateExpiring = dateExpiring
-	}
-}
+const GroceryItem = ({groceryItem}) => {
+	return (
+		<div id = {groceryItem.id} key = {groceryItem.id} className={groceryItem.expired ? "" : "strike"}>
+			{groceryItem.name}
+		</div>
+	);
+};
+
+export default GroceryItem;
